@@ -37,23 +37,21 @@
         <item>500.000TL / 500.000TL</item>
     </string-array>
     <integer-array name="people_photos">
-        <item>@drawable/photo_male_1</item>
-        <item>@drawable/photo_male_2</item>
-        <item>@drawable/photo_female_1</item>
-        <item>@drawable/photo_female_2</item>
-        <item>@drawable/photo_male_3</item>
-
-        <item>@drawable/photo_female_3</item>
-        <item>@drawable/photo_male_4</item>
-        <item>@drawable/photo_female_4</item>
-        <item>@drawable/photo_female_5</item>
-        <item>@drawable/photo_male_5</item>
-
-        <item>@drawable/photo_female_6</item>
-        <item>@drawable/photo_male_6</item>
-        <item>@drawable/photo_male_7</item>
-        <item>@drawable/photo_female_7</item>
-        <item>@drawable/photo_female_8</item>
+        <item>@drawable/baby1</item>
+        <item>@drawable/baby2</item>
+        <item>@drawable/gazi1</item>
+        <item>@drawable/baby3</item>
+        <item>@drawable/baby1</item>
+        <item>@drawable/baby2</item>
+        <item>@drawable/gazi1</item>
+        <item>@drawable/baby3</item>
+        <item>@drawable/baby1</item>
+        <item>@drawable/baby2</item>
+        <item>@drawable/gazi1</item>
+        <item>@drawable/baby3</item>
+        <item>@drawable/baby1</item>
+        <item>@drawable/baby2</item>
+        <item>@drawable/gazi1</item>
     </integer-array>
 
     <string-array name="chat_snippet">
@@ -101,9 +99,9 @@
     </integer-array>
 
     <string-array name="chat_details_content">
-        <item>Suspendisse sit amet fermentum est</item>
-        <item>Suspendisse fermentum !</item>
-        <item>hendrerit libero et, ullamcorper ?</item>
+        <item>Merhaba, hangi hastanede yatıyorsunuz? Nasıl iletişime geçebiliriz</item>
+        <item>Bayındır Hastahanesinde</item>
+        <item>Tamamdır, çıktık geliyoruz</item>
     </string-array>
 
     <string-array name="chat_details_date">

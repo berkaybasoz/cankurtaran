@@ -89,7 +89,7 @@ public class PageFriendFragment extends Fragment {
         lp.height = WindowManager.LayoutParams.WRAP_CONTENT;
 
         ((TextView)dialog.findViewById(R.id.name)).setText(friend.getName());
-        ((TextView)dialog.findViewById(R.id.address)).setText(Constant.getBoolean()?"Active Now" : "Inactive");
+        ((TextView)dialog.findViewById(R.id.address)).setText("21 GÜN KALDI");
         ImageView image = (ImageView)dialog.findViewById(R.id.image);
         Picasso.with(getActivity()).load(friend.getPhoto())
                 .resize(200, 200)
