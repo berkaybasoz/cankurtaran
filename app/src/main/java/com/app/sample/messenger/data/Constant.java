@@ -201,11 +201,10 @@ public class Constant {
     }
 
     private static String[] getLoremArr(Context ctx){
-        String rand_lorem[] = new String[4];
-        rand_lorem[0] = ctx.getString(R.string.lorem_ipsum);
-        rand_lorem[1] = ctx.getString(R.string.short_lorem_ipsum);
-        rand_lorem[2] = ctx.getString(R.string.long_lorem_ipsum);
-        rand_lorem[3] = ctx.getString(R.string.middle_lorem_ipsum);
+        String rand_lorem[] = new String[3];
+        rand_lorem[0] = ctx.getString(R.string.short_lorem_ipsum);
+        rand_lorem[1] = ctx.getString(R.string.long_lorem_ipsum);
+        rand_lorem[2] = ctx.getString(R.string.middle_lorem_ipsum);
         return  rand_lorem;
     }
 
