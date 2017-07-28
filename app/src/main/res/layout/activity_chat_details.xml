@@ -16,7 +16,7 @@
             android:background="?attr/colorPrimary"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-            app:subtitle="Active 5 minutes ago"
+            app:subtitle="Desteğiniz için son 5 gün"
             app:subtitleTextAppearance="@style/TextAppearance.AppCompat.Caption"
             app:titleTextAppearance="@style/TextAppearance.AppCompat.Subhead" />
     </android.support.design.widget.AppBarLayout>
