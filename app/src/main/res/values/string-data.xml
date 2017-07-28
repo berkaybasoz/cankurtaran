@@ -143,17 +143,12 @@
     <integer-array name="feed_photos">
         <item>@drawable/feed_photo_1</item>
         <item>@drawable/feed_photo_2</item>
-        <item>@drawable/feed_photo_3</item>
-        <item>@drawable/feed_photo_4</item>
-        <item>@drawable/feed_photo_5</item>
-        <item>@drawable/feed_photo_6</item>
-        <item>@drawable/feed_photo_7</item>
     </integer-array>
 
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie.  Fusce quis mauris a enim sollicitudin</string>
 
+
     <string name="lorem_ipsum_long">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula nisl arcu, in dictum neque semper in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-        \n\nPhasellus ac iaculis enim. Donec mattis sagittis mi, eget luctus mi convallis nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur dapibus urna eget tellus laoreet mollis. In hac habitasse platea dictumst. Praesent non elit eu lacus faucibus lacinia ac id erat. Mauris dictum vehicula est ut condimentum.
+        "aile istanbul'un silivri ilçesinde yaşıyor. bebeğin annesini bizzat tanıyorum. hatta az önce de görüştük. ihtiyaç duyulan toplam para 500 bin tl. şu âna dek toplanan para ise 65 bin (edit: sözlükte başlık açıldıktan sonra çığ gibi büyümeye başladı bu rakam. entry'nin altından gelişmeleri takip edebilirsiniz). eğer iki ay içinde bu para toplanmazsa, bu bebek yaşamayacak."
     </string>
 </resources>

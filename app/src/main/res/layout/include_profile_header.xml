@@ -47,7 +47,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="San Francisco, CA"
+                    android:text="İstanbul"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:textColor="@color/material_grey_600" />
             </LinearLayout>
@@ -86,13 +86,13 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1.2 K"
+                    android:text="12 Bin TRY"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="PHOTOS"
+                    android:text="Toplanan"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                     android:textColor="@color/grey_hard" />
             </LinearLayout>
@@ -113,13 +113,13 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="293"
+                    android:text="50 Bin TRY"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="FRIENDS"
+                    android:text="Beklenen"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                     android:textColor="@color/grey_hard" />
             </LinearLayout>
@@ -140,13 +140,13 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="57"
+                    android:text="21 Gün"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="VIDEOS"
+                    android:text="Kalan Süre"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                     android:textColor="@color/grey_hard" />
             </LinearLayout>
