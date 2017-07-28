@@ -7,11 +7,11 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.ImageView;
 
 import com.app.sample.messenger.adapter.PageFragmentAdapter;
 import com.app.sample.messenger.data.Tools;
 import com.app.sample.messenger.fragment.PageCallFragment;
+import com.app.sample.messenger.fragment.PageFeedFragment;
 import com.app.sample.messenger.fragment.PageFriendFragment;
 import com.app.sample.messenger.fragment.PageGroupFragment;
 import com.app.sample.messenger.fragment.PageRecentFragment;
@@ -26,6 +26,7 @@ public class ActivityMain extends AppCompatActivity {
 
     private PageFragmentAdapter adapter;
 
+    private PageFeedFragment f_feed;
     private PageRecentFragment f_recent;
     private PageCallFragment f_call;
     private PageGroupFragment f_group;
@@ -36,7 +37,8 @@ public class ActivityMain extends AppCompatActivity {
             R.drawable.ic_tab_call,
             R.drawable.ic_tab_group,
             R.drawable.ic_tab_friends,
-            R.drawable.ic_tab_setting
+            R.drawable.ic_tab_setting,
+            R.drawable.ic_feed_dark
     };
 
     @Override
@@ -85,6 +87,9 @@ public class ActivityMain extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         adapter = new PageFragmentAdapter(getSupportFragmentManager());
+        if (f_feed == null) {
+            f_feed = new PageFeedFragment();
+        }
         if (f_recent == null) {
             f_recent = new PageRecentFragment();
         }
@@ -101,6 +106,7 @@ public class ActivityMain extends AppCompatActivity {
             f_setting = new PageSettingFragment();
         }
 
+        adapter.addFragment(f_feed, getString(R.string.tab_feed));
         adapter.addFragment(f_group, getString(R.string.tab_group));
         adapter.addFragment(f_friend, getString(R.string.tab_friend));
         adapter.addFragment(f_recent, getString(R.string.tab_recent));
@@ -110,11 +116,12 @@ public class ActivityMain extends AppCompatActivity {
     }
 
     private void setupTabIcons() {
-        tabLayout.getTabAt(0).setIcon(imageResId[3]);
-        tabLayout.getTabAt(1).setIcon(imageResId[2]);
-        tabLayout.getTabAt(2).setIcon(imageResId[1]);
-        tabLayout.getTabAt(3).setIcon(imageResId[0]);
-        tabLayout.getTabAt(4).setIcon(imageResId[4]);
+        tabLayout.getTabAt(0).setIcon(imageResId[5]);
+        tabLayout.getTabAt(1).setIcon(imageResId[3]);
+        tabLayout.getTabAt(2).setIcon(imageResId[2]);
+        tabLayout.getTabAt(3).setIcon(imageResId[1]);
+        tabLayout.getTabAt(4).setIcon(imageResId[0]);
+        tabLayout.getTabAt(5).setIcon(imageResId[4]);
     }
 
     private void setupTabClick() {

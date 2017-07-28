@@ -8,6 +8,7 @@ import android.util.Log;
 import com.app.sample.messenger.R;
 import com.app.sample.messenger.model.Chat;
 import com.app.sample.messenger.model.ChatsDetails;
+import com.app.sample.messenger.model.Feed;
 import com.app.sample.messenger.model.Friend;
 import com.app.sample.messenger.model.Group;
 import com.app.sample.messenger.model.GroupDetails;
@@ -15,7 +16,6 @@ import com.app.sample.messenger.model.GroupDetails;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
@@ -166,5 +166,46 @@ public class Constant {
         return rnd.nextBoolean();
     }
 
+    public static List<Feed> getRandomFeed(Context ctx)  {
+        List<Feed> items = new ArrayList<>();
+        List<Friend> friends = getFriendsData(ctx);
+        String rand_date[] = ctx.getResources().getStringArray(R.array.random_date);
+        String rand_lorem[] = getLoremArr(ctx);
+        TypedArray photo = ctx.getResources().obtainTypedArray(R.array.feed_photos);
+        int friend_size = friends.size()-1;
+        int date_size = rand_date.length-1;
+        int lorem_size = rand_lorem.length-1;
+        int photo_size = photo.length();
+
+        Random r = new Random();
+
+        for (int i = 0; i < 10; i++) {
+            int f_i = getRandomIndex(r, 0, friend_size);
+            int d_i = getRandomIndex(r, 0, date_size);
+            int l_i = getRandomIndex(r, 0, lorem_size);
+            int p_i = getRandomIndex(r, 0, photo_size);
+            Feed feed = new Feed();
+            feed.setFriend(friends.get(f_i));
+            feed.setDate(rand_date[d_i]);
+            boolean bool_text = r.nextBoolean();
+            if(bool_text){
+                feed.setText(rand_lorem[l_i]);
+            }
+            if(!bool_text || r.nextBoolean()){
+                feed.setPhoto(photo.getResourceId(p_i, -1));
+            }
+            items.add(feed);
+        }
+        return items;
+    }
+
+    private static String[] getLoremArr(Context ctx){
+        String rand_lorem[] = new String[4];
+        rand_lorem[0] = ctx.getString(R.string.lorem_ipsum);
+        rand_lorem[1] = ctx.getString(R.string.short_lorem_ipsum);
+        rand_lorem[2] = ctx.getString(R.string.long_lorem_ipsum);
+        rand_lorem[3] = ctx.getString(R.string.middle_lorem_ipsum);
+        return  rand_lorem;
+    }
 
 }
