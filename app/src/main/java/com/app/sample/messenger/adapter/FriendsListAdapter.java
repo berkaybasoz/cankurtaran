@@ -60,13 +60,14 @@ public class FriendsListAdapter extends RecyclerView.Adapter<FriendsListAdapter.
         public ImageView image;
         public ImageView more;
         public LinearLayout lyt_parent;
-
+        public TextView fund;
         public ViewHolder(View v) {
             super(v);
             name = (TextView) v.findViewById(R.id.name);
             image = (ImageView) v.findViewById(R.id.image);
             more = (ImageView) v.findViewById(R.id.more);
             lyt_parent = (LinearLayout) v.findViewById(R.id.lyt_parent);
+            fund = (TextView) v.findViewById(R.id.fund);
         }
     }
 
@@ -89,6 +90,7 @@ public class FriendsListAdapter extends RecyclerView.Adapter<FriendsListAdapter.
     public void onBindViewHolder(ViewHolder holder, final int position) {
         final Friend f = filtered_items.get(position);
         holder.name.setText(f.getName());
+        holder.fund.setText(f.getFund());
         Picasso.with(ctx).load(f.getPhoto()).resize(100, 100).transform(new CircleTransform()).into(holder.image);
 
         holder.lyt_parent.setOnClickListener(new View.OnClickListener() {

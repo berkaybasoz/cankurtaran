@@ -4,13 +4,13 @@
     <item
         android:id="@+id/action_profile"
         android:orderInCategory="100"
-        android:title="View Profile"
+        android:title="Profili Gör"
         app:showAsAction="always" />
 
     <item
         android:id="@+id/action_info"
         android:orderInCategory="100"
-        android:title="Contact Info"
+        android:title="İletişime Geç"
         app:showAsAction="always" />
 
 </menu>

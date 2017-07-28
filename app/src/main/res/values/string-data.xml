@@ -2,25 +2,40 @@
 <resources>
 
     <string-array name="people_names">
-        <item>Anderson Thomas</item>
-        <item>Adams Green</item>
-        <item>Laura Michelle</item>
-        <item>Betty L</item>
-        <item>Miller Wilson</item>
-
-        <item>Garcia Lewis</item>
-        <item>Roberts Turner</item>
-        <item>Mary Jackson</item>
-        <item>Sarah Scott</item>
-        <item>Kevin John</item>
-
-        <item>Elizabeth</item>
-        <item>Evans Collins</item>
-        <item>Roberts</item>
-        <item>Betty C</item>
-        <item>Susan Lee</item>
+        <item>Eymen Bebek</item>
+        <item>Ayşe Bebek</item>
+        <item>Gazi Mustafa</item>
+        <item>Kartal Bebek</item>
+        <item>Eymen Bebek</item>
+        <item>Ayşe Bebek</item>
+        <item>Gazi Mustafa</item>
+        <item>Kartal Bebek</item>
+        <item>Eymen Bebek</item>
+        <item>Ayşe Bebek</item>
+        <item>Gazi Mustafa</item>
+        <item>Kartal Bebek</item>
+        <item>Eymen Bebek</item>
+        <item>Ayşe Bebek</item>
+        <item>Gazi Mustafa</item>
     </string-array>
 
+    <string-array name="people_funds">
+        <item>0TL / 100.000TL</item>
+        <item>10.000TL / 200.000TL</item>
+        <item>50.000TL / 500.000TL</item>
+        <item>1.500.000TL / 400.000TL</item>
+        <item>500.000TL / 500.000TL</item>
+        <item>500.000TL / 500.000TL</item>
+        <item>500.000TL / 500.000TL</item>
+        <item>500.000TL / 500.000TL</item>
+        <item>500.000TL / 500.000TL</item>
+        <item>500.000TL / 500.000TL</item>
+        <item>500.000TL / 500.000TL</item>
+        <item>1.500.000TL / 500.000TL</item>
+        <item>500.000TL / 500.000TL</item>
+        <item>500.000TL / 500.000TL</item>
+        <item>500.000TL / 500.000TL</item>
+    </string-array>
     <integer-array name="people_photos">
         <item>@drawable/photo_male_1</item>
         <item>@drawable/photo_male_2</item>
