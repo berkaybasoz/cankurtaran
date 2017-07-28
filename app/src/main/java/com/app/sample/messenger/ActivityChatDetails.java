@@ -186,6 +186,11 @@ public class ActivityChatDetails extends AppCompatActivity {
                 i.putExtra(ActivityCalling.KEY_FRIEND, friend);
                 startActivity(i);
                 return true;
+            case R.id.action_info:
+                Intent intent = new Intent(this, ActivityViewProfile.class);
+                intent.putExtra(ActivityChatDetails.KEY_FRIEND, friend);
+                startActivity(intent);
+                return true;
             default:
                 Snackbar.make(parent_view, item.getTitle() + " Clicked ", Snackbar.LENGTH_SHORT).show();
                 return super.onOptionsItemSelected(item);

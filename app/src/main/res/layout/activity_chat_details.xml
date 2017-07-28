@@ -71,7 +71,7 @@
             android:layout_weight="1"
             android:background="@android:color/white"
             android:gravity="top"
-            android:hint="type message.."
+            android:hint="Mesaj yaz..."
             android:padding="10dp" />
 
         <Button
