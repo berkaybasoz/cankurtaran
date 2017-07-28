@@ -179,10 +179,10 @@
 
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie.  Fusce quis mauris a enim sollicitudin</string>
 
-
     <string name="lorem_ipsum_long">
-        "aile istanbul'un silivri ilçesinde yaşıyor. bebeğin annesini bizzat tanıyorum. hatta az önce de görüştük. ihtiyaç duyulan toplam para 500 bin tl. şu âna dek toplanan para ise 65 bin (edit: sözlükte başlık açıldıktan sonra çığ gibi büyümeye başladı bu rakam. entry'nin altından gelişmeleri takip edebilirsiniz). eğer iki ay içinde bu para toplanmazsa, bu bebek yaşamayacak."
+        "aile istanbul'un silivri ilçesinde yaşıyor. bebeğin annesini bizzat tanıyorum. hatta az önce de görüştük. ihtiyaç duyulan toplam para 500 bin tl. şu âna dek toplanan para ise 65 bin eğer iki ay içinde bu para toplanmazsa, bu bebek yaşamayacak."
     </string>
+
 
     <string-array name="notif_text">
         <item><![CDATA[<b>Bayındır Hast.</b> Akciğer kanseri tedavisinde uygulanan yenilikler]]></item>
@@ -203,10 +203,31 @@
         <item><![CDATA[<b>Bayındır Hast.</b> Yaşlılara fizik tedavi özel indirimler]]></item>
         <item><![CDATA[<b>Bayındır Hast.</b> doğuma hazırlık kursları başladı]]></item>
     </string-array>
-
     <string-array name="notif_date">
         <item>09:45</item>
         <item>16:55</item>
+
+        <item>20:26</item>
+        <item>24:10</item>
+        <item>Dün, 23:10</item>
+
+        <item>Dün, 11:43</item>
+        <item>Dün, 15:22</item>
+        <item>Dün, 23:10</item>
+        <item>11 Tem 2017, 16:43</item>
+        <item>11 Tem 2017, 20:11</item>
+
+        <item>10 Haz 2017, 12:25</item>
+        <item>08 Haz 2017, 01:45</item>
+        <item>04 Haz 2017, 22:30</item>
+        <item>04 Haz 2017, 05:22</item>
+        <item>01 Haz 2017, 04:59</item>
+    </string-array>
+
+    <string-array name="random_date">
+        <item>09:45</item>
+        <item>16:55</item>
+
         <item>20:26</item>
         <item>24:10</item>
         <item>Dün, 23:10</item>
@@ -240,4 +261,11 @@
         <item>@drawable/hospital2</item>
         <item>@drawable/hospital3</item>
     </integer-array>
+    <string name="short_lorem_ipsum">"aile istanbul'un silivri ilçesinde yaşıyor. ihtiyaç duyulan toplam para 500 bin tl. şu âna dek toplanan para ise 65 bin "</string>
+
+    <string name="middle_lorem_ipsum">"aile istanbul'un silivri ilçesinde yaşıyor. ihtiyaç duyulan toplam para 500 bin tl."</string>
+
+    <string name="long_lorem_ipsum">
+        "aile istanbul'un silivri ilçesinde yaşıyor. bebeğin annesini bizzat tanıyorum. hatta az önce de görüştük. ihtiyaç duyulan toplam para 500 bin tl. şu âna dek toplanan para ise 65 bin eğer iki ay içinde bu para toplanmazsa, bu bebek yaşamayacak."
+    </string>
 </resources>
