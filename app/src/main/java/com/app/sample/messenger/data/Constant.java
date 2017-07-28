@@ -81,8 +81,8 @@ public class Constant {
 
     public static List<Chat> getChatsData(Context ctx)  {
         List<Chat> items = new ArrayList<>();
-        String s_arr[] = ctx.getResources().getStringArray(R.array.people_names);
-        TypedArray drw_arr = ctx.getResources().obtainTypedArray(R.array.people_photos);
+        String s_arr[] = ctx.getResources().getStringArray(R.array.people_names_2);
+        TypedArray drw_arr = ctx.getResources().obtainTypedArray(R.array.people_photos_2);
         String s_cht[] = ctx.getResources().getStringArray(R.array.chat_snippet);
         String s_date[] = ctx.getResources().getStringArray(R.array.chat_date);
         for (int i = 0; i < 10; i++) {

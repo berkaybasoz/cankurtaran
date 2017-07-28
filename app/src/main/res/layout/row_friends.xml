@@ -44,12 +44,12 @@
 
             <TextView
                 android:id="@+id/fund"
+                android:textStyle="bold|italic"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="10.000TL / 20.000TL"
                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
-                android:textColor="#424242"
-                android:textStyle="normal" />
+                android:textColor="#424242" />
 
         </LinearLayout>
 

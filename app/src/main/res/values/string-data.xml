@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="people_names_2">
+        <item>Mehmet Yılmaz</item>
+        <item>Ayşe Sezer</item>
+        <item>Hakkı Mustafa</item>
+        <item>Ceyda Koç</item>
+        <item>Mehmet Yılmaz</item>
+        <item>Ayşe Sezer</item>
+        <item>Hakkı Mustafa</item>
+        <item>Ceyda Koç</item>
+        <item>Mehmet Yılmaz</item>
+        <item>Ayşe Sezer</item>
+        <item>Hakkı Mustafa</item>
+        <item>Ceyda Koç</item>
+        <item>Mehmet Yılmaz</item>
+        <item>Ayşe Sezer</item>
+        <item>Hakkı Mustafa</item>
+    </string-array>
+    <integer-array name="people_photos_2">
+        <item>@drawable/baby1</item>
+        <item>@drawable/baby2</item>
+        <item>@drawable/gazi1</item>
+        <item>@drawable/baby3</item>
+        <item>@drawable/baby1</item>
+        <item>@drawable/baby2</item>
+        <item>@drawable/gazi1</item>
+        <item>@drawable/baby3</item>
+        <item>@drawable/baby1</item>
+        <item>@drawable/baby2</item>
+        <item>@drawable/gazi1</item>
+        <item>@drawable/baby3</item>
+        <item>@drawable/baby1</item>
+        <item>@drawable/baby2</item>
+        <item>@drawable/gazi1</item>
+    </integer-array>
 
     <string-array name="people_names">
         <item>Eymen Bebek</item>
@@ -55,29 +89,29 @@
     </integer-array>
 
     <string-array name="chat_snippet">
-        <item>Hi, Good morning</item>
-        <item>There s a chance I can make it.</item>
-        <item>Wish I could come, but Im out of town this weekend</item>
-        <item>Do you have any recomendations?</item>
-        <item>She had probably only just gpt up and had not even begun to get dressed</item>
-        <item>Can we make some appointment</item>
-        <item>Ok. We ll be there</item>
-        <item>How about our work last week.</item>
-        <item>Whatever your age</item>
-        <item>Headlines and top stories from business</item>
+        <item>Acil! B Rh Pozitif, Bayındır Hastanesinde</item>
+        <item>A Rh Negatif, yoğun bakımdaki hastamız için</item>
+        <item>0 Rh Pozitif, eşim sezaryan doğum yaptı</item>
+        <item>Tuzla tarafında kaza yaptık, B Rh pozitif lazım</item>
+        <item>Acil! B Rh Pozitif, Bayındır Hastanesinde</item>
+        <item>A Rh Negatif, yoğun bakımdaki hastamız için</item>
+        <item>0 Rh Pozitif, eşim sezaryan doğum yaptı</item>
+        <item>Tuzla tarafında kaza yaptık, B Rh pozitif lazım</item>
+        <item>Acil! B Rh Pozitif, Bayındır Hastanesinde</item>
+        <item>A Rh Negatif, yoğun bakımdaki hastamız için</item>
     </string-array>
 
     <string-array name="chat_date">
-        <item>09:45</item>
         <item>16:55</item>
-        <item>Yesterday</item>
-        <item>11/4/2015</item>
-        <item>11/4/2015</item>
-        <item>11/2/2015</item>
-        <item>10/20/2015</item>
-        <item>10/19/2015</item>
-        <item>10/12/2015</item>
-        <item>10/13/2015</item>
+        <item>16:55</item>
+        <item>15:55</item>
+        <item>13:54</item>
+        <item>10:55</item>
+        <item>Dün</item>
+        <item>27/07/2017</item>
+        <item>26/07/2017</item>
+        <item>14/07/2017</item>
+        <item>05/06/2017</item>
     </string-array>
 
     <string-array name="groups_name">

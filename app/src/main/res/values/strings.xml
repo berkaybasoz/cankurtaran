@@ -15,5 +15,8 @@
     <string name="tab_group">Group</string>
     <string name="tab_friend">Friend</string>
     <string name="tab_setting">Setting</string>
-
+    <string name="google_map_v2_key">AIzaSyDOwCHAFvVq659VfHeHWIMXDi1lijwrfG0</string>
+    <string name="google_map_v2_key_alternatif">AIzaSyDddoIVUzW5MR0CDmSwrrhLuNOnYUksOZc</string>
+    <string name="you_string">Bulunduğun Yer</string>
+    <string name="away_string">away</string>
 </resources>
