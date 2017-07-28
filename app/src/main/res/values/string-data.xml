@@ -183,6 +183,7 @@
         "aile istanbul'un silivri ilçesinde yaşıyor. bebeğin annesini bizzat tanıyorum. hatta az önce de görüştük. ihtiyaç duyulan toplam para 500 bin tl. şu âna dek toplanan para ise 65 bin eğer iki ay içinde bu para toplanmazsa, bu bebek yaşamayacak."
     </string>
 
+<<<<<<< HEAD
 
     <string-array name="notif_text">
         <item><![CDATA[<b>Bayındır Hast.</b> Akciğer kanseri tedavisinde uygulanan yenilikler]]></item>
@@ -268,4 +269,26 @@
     <string name="long_lorem_ipsum">
         "aile istanbul'un silivri ilçesinde yaşıyor. bebeğin annesini bizzat tanıyorum. hatta az önce de görüştük. ihtiyaç duyulan toplam para 500 bin tl. şu âna dek toplanan para ise 65 bin eğer iki ay içinde bu para toplanmazsa, bu bebek yaşamayacak."
     </string>
+=======
+    <string name="short_lorem_ipsum">"aile istanbul'un silivri ilçesinde yaşıyor. ihtiyaç duyulan toplam para 500 bin tl. şu âna dek toplanan para ise 65 bin "</string>
+
+    <string name="middle_lorem_ipsum">"aile istanbul'un silivri ilçesinde yaşıyor. ihtiyaç duyulan toplam para 500 bin tl."</string>
+
+    <string name="long_lorem_ipsum">
+        "aile istanbul'un silivri ilçesinde yaşıyor. bebeğin annesini bizzat tanıyorum. hatta az önce de görüştük. ihtiyaç duyulan toplam para 500 bin tl. şu âna dek toplanan para ise 65 bin eğer iki ay içinde bu para toplanmazsa, bu bebek yaşamayacak."
+    </string>
+
+    <string-array name="random_date">
+        <item>09:45</item>
+        <item>16:55</item>
+        <item>Yesterday, 23:10</item>
+        <item>02 Nov 15, 22:30</item>
+        <item>10 Sep 15, 06:15</item>
+        <item>11 Sep 15, 07.00</item>
+        <item>07:23</item>
+        <item>Just Now</item>
+        <item>30 Oct 2015, 16:43</item>
+        <item>21 Aug 2015, 20:35</item>
+    </string-array>
+>>>>>>> 03726b3bad3f52ab07bc30c7b29a1bbfb62eaf46
 </resources>
