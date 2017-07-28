@@ -112,8 +112,8 @@ public class ActivityMain extends AppCompatActivity {
     private void setupTabIcons() {
         tabLayout.getTabAt(0).setIcon(imageResId[3]);
         tabLayout.getTabAt(1).setIcon(imageResId[2]);
-        tabLayout.getTabAt(2).setIcon(imageResId[1]);
-        tabLayout.getTabAt(3).setIcon(imageResId[0]);
+        tabLayout.getTabAt(2).setIcon(imageResId[0]);
+        tabLayout.getTabAt(3).setIcon(imageResId[1]);
         tabLayout.getTabAt(4).setIcon(imageResId[4]);
     }
 

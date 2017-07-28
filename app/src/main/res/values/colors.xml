@@ -17,5 +17,8 @@
     <color name="darkOverlay">#80000000</color>
     <color name="darkOverlaySoft">#40000000</color>
     <color name="whiteOverlay">#40FFFFFF</color>
-
+    <color name="grey_10">#e6e6e6</color>
+    <color name="map_info_text_color">#595959</color>
+    <color name="greenish_transparent">#50B8D9BE</color>
+    <color name="map_polyline_color">#F36814</color>
 </resources>
