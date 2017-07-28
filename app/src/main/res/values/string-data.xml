@@ -183,4 +183,45 @@
     <string name="lorem_ipsum_long">
         "aile istanbul'un silivri ilçesinde yaşıyor. bebeğin annesini bizzat tanıyorum. hatta az önce de görüştük. ihtiyaç duyulan toplam para 500 bin tl. şu âna dek toplanan para ise 65 bin (edit: sözlükte başlık açıldıktan sonra çığ gibi büyümeye başladı bu rakam. entry'nin altından gelişmeleri takip edebilirsiniz). eğer iki ay içinde bu para toplanmazsa, bu bebek yaşamayacak."
     </string>
+
+    <string-array name="notif_text">
+        <item>like your photo</item>
+        <item>commented on your photo</item>
+        <item>mention you in a comment</item>
+        <item>share your photo</item>
+        <item><![CDATA[posted a photo in group <b>Collage</b>]]></item>
+
+        <item>like your photo</item>
+        <item>like your post</item>
+        <item>commented on your post</item>
+        <item>like your photo</item>
+        <item>like your post</item>
+
+        <item><![CDATA[posted a photo in group <b>Hangout Friends</b>]]></item>
+        <item><![CDATA[posted in group <b>Cat Lovers</b>]]></item>
+        <item>like your photo</item>
+        <item>mention you in a comment</item>
+        <item>share your post</item>
+    </string-array>
+
+    <string-array name="notif_date">
+        <item>09:45</item>
+        <item>16:55</item>
+        <item>20:26</item>
+        <item>24:10</item>
+        <item>Yesterday, 23:10</item>
+
+        <item>Yesterday, 11:43</item>
+        <item>Yesterday, 15:22</item>
+        <item>Yesterday, 23:10</item>
+        <item>11 Nov 2015, 16:43</item>
+        <item>11 Nov 2015, 20:11</item>
+
+        <item>10 Nov 2015, 12:25</item>
+        <item>08 Nov 2015, 01:45</item>
+        <item>04 Nov 2015, 22:30</item>
+        <item>04 Nov 2015, 05:22</item>
+        <item>01 Nov 2015, 04:59</item>
+    </string-array>
+
 </resources>

@@ -11,6 +11,7 @@ import com.app.sample.messenger.model.ChatsDetails;
 import com.app.sample.messenger.model.Friend;
 import com.app.sample.messenger.model.Group;
 import com.app.sample.messenger.model.GroupDetails;
+import com.app.sample.messenger.model.Notif;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -166,5 +167,29 @@ public class Constant {
         return rnd.nextBoolean();
     }
 
+
+
+
+    public static List<Friend> getHospitalData(Context ctx)  {
+        List<Friend> items = new ArrayList<>();
+        String s_arr[] = ctx.getResources().getStringArray(R.array.people_names);
+        String f_arr[] = ctx.getResources().getStringArray(R.array.people_funds);
+        TypedArray drw_arr = ctx.getResources().obtainTypedArray(R.array.people_photos);
+        for (int i = 0; i < s_arr.length; i++) {
+            Friend fr = new Friend(i, s_arr[i], drw_arr.getResourceId(i, -1),f_arr[i]);
+            items.add(fr);
+        }
+        return items;
+    }
+    public static List<Notif> getNotifData(Context ctx)  {
+        List<Notif> items = new ArrayList<>();
+        List<Friend> friends = getHospitalData(ctx);
+        String content_arr[] = ctx.getResources().getStringArray(R.array.notif_text);
+        String s_date[] = ctx.getResources().getStringArray(R.array.notif_date);
+        for (int i = 0; i < content_arr.length; i++) {
+            items.add(new Notif(i, s_date[i], friends.get(i), content_arr[i]));
+        }
+        return items;
+    }
 
 }
