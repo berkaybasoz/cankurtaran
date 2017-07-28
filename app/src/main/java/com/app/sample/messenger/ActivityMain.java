@@ -14,6 +14,7 @@ import com.app.sample.messenger.fragment.PageCallFragment;
 import com.app.sample.messenger.fragment.PageFeedFragment;
 import com.app.sample.messenger.fragment.PageFriendFragment;
 import com.app.sample.messenger.fragment.PageGroupFragment;
+import com.app.sample.messenger.fragment.PageNotifFragment;
 import com.app.sample.messenger.fragment.PageRecentFragment;
 import com.app.sample.messenger.fragment.PageSettingFragment;
 
@@ -32,13 +33,15 @@ public class ActivityMain extends AppCompatActivity {
     private PageGroupFragment f_group;
     private PageFriendFragment f_friend;
     private PageSettingFragment f_setting;
+    private PageNotifFragment f_notif;
     private static int[] imageResId = {
             R.drawable.ic_tab_recent,
             R.drawable.ic_tab_call,
             R.drawable.ic_tab_group,
             R.drawable.ic_tab_friends,
             R.drawable.ic_tab_setting,
-            R.drawable.ic_feed_dark
+            R.drawable.ic_feed_dark,
+            R.drawable.ic_notification
     };
 
     @Override
@@ -105,23 +108,30 @@ public class ActivityMain extends AppCompatActivity {
         if (f_setting == null) {
             f_setting = new PageSettingFragment();
         }
+        if (f_notif == null) {
+            f_notif = new PageNotifFragment();
+        }
 
-        adapter.addFragment(f_feed, getString(R.string.tab_feed));
+
         adapter.addFragment(f_group, getString(R.string.tab_group));
+        adapter.addFragment(f_feed, getString(R.string.tab_feed));
         adapter.addFragment(f_friend, getString(R.string.tab_friend));
         adapter.addFragment(f_recent, getString(R.string.tab_recent));
+        adapter.addFragment(f_notif, "Haberler");
         adapter.addFragment(f_call, getString(R.string.tab_call));
         adapter.addFragment(f_setting, getString(R.string.tab_setting));
         viewPager.setAdapter(adapter);
     }
 
     private void setupTabIcons() {
-        tabLayout.getTabAt(0).setIcon(imageResId[5]);
-        tabLayout.getTabAt(1).setIcon(imageResId[3]);
+        tabLayout.getTabAt(1).setIcon(imageResId[5]);
+        tabLayout.getTabAt(0).setIcon(imageResId[3]);
         tabLayout.getTabAt(2).setIcon(imageResId[2]);
-        tabLayout.getTabAt(3).setIcon(imageResId[1]);
-        tabLayout.getTabAt(4).setIcon(imageResId[0]);
-        tabLayout.getTabAt(5).setIcon(imageResId[4]);
+        tabLayout.getTabAt(3).setIcon(imageResId[0]);
+        tabLayout.getTabAt(4).setIcon(imageResId[6]);
+        tabLayout.getTabAt(5).setIcon(imageResId[1]);
+        tabLayout.getTabAt(6).setIcon(imageResId[4]);
+
     }
 
     private void setupTabClick() {

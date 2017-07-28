@@ -61,7 +61,7 @@
         android:layout_height="1px"
         android:background="@color/grey_soft" />
 
-    <LinearLayout
+    <LinearLayout android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/white"
