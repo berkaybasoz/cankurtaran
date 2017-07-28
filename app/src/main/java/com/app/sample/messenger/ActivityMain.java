@@ -100,19 +100,20 @@ public class ActivityMain extends AppCompatActivity {
         if (f_setting == null) {
             f_setting = new PageSettingFragment();
         }
+
+        adapter.addFragment(f_group, getString(R.string.tab_group));
         adapter.addFragment(f_recent, getString(R.string.tab_recent));
         adapter.addFragment(f_call, getString(R.string.tab_call));
-        adapter.addFragment(f_group, getString(R.string.tab_group));
         adapter.addFragment(f_friend, getString(R.string.tab_friend));
         adapter.addFragment(f_setting, getString(R.string.tab_setting));
         viewPager.setAdapter(adapter);
     }
 
     private void setupTabIcons() {
-        tabLayout.getTabAt(0).setIcon(imageResId[0]);
+        tabLayout.getTabAt(0).setIcon(imageResId[3]);
         tabLayout.getTabAt(1).setIcon(imageResId[1]);
         tabLayout.getTabAt(2).setIcon(imageResId[2]);
-        tabLayout.getTabAt(3).setIcon(imageResId[3]);
+        tabLayout.getTabAt(3).setIcon(imageResId[0]);
         tabLayout.getTabAt(4).setIcon(imageResId[4]);
     }
 

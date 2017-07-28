@@ -68,15 +68,15 @@
     </string-array>
 
     <string-array name="groups_name">
-        <item>Collage</item>
-        <item>Hangout Friends</item>
-        <item>Cat Lovers</item>
+        <item>Maddi Bağış</item>
+        <item>Kan Bağışı</item>
+        <item>Gönüllü Refaketçi</item>
     </string-array>
 
     <string-array name="groups_date">
-        <item>10 Days ago</item>
-        <item>Today</item>
-        <item>Yesterday</item>
+        <item>10 / 21 Kişi Desteklendi</item>
+        <item>12 Acil Bağış Lazım</item>
+        <item>23 Refekatçi Aranıyor</item>
     </string-array>
 
     <integer-array name="groups_photos">
