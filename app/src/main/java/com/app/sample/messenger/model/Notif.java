@@ -30,6 +30,6 @@ public class Notif implements Serializable {
     }
 
     public String getContent() {
-        return "<b>"+friend.getName()+"</b> "+content;
+        return  content;
     }
 }
