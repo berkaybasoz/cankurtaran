@@ -101,7 +101,7 @@ public class Constant {
         items.add(new Group(0, s_date[0], s_name[0], "", drw_arr.getResourceId(0,-1), friendSubList(ctx, 0, 5)));
         items.add(new Group(1, s_date[1], s_name[1], "", drw_arr.getResourceId(1,-1), friendSubList(ctx, 7, 8)));
         items.add(new Group(2, s_date[2], s_name[2], "", drw_arr.getResourceId(2,-1), friendSubList(ctx, 6, 14)));
-
+        items.add(new Group(3, s_date[3], s_name[3], "", drw_arr.getResourceId(3,-1), friendSubList(ctx, 6, 14)));
         return items;
     }
 

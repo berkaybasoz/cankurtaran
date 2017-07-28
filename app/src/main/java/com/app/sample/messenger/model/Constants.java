@@ -5,6 +5,7 @@ package com.app.sample.messenger.model;
  */
 
 public   class Constants {
-    public static final double DUMMY_LOCATION_LATITUDE = 40.841075;
-    public static final double DUMMY_LOCATION_LONGITUDE = 29.305723;
+    public static final double DUMMY_LOCATION_LATITUDE = 41.076083;
+    public static final double DUMMY_LOCATION_LONGITUDE = 29.0119733;
+
 }

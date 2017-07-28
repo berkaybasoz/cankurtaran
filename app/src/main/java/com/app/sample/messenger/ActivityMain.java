@@ -118,7 +118,7 @@ public class ActivityMain extends AppCompatActivity {
         adapter.addFragment(f_friend, getString(R.string.tab_friend));
         adapter.addFragment(f_recent, getString(R.string.tab_recent));
         adapter.addFragment(f_notif, "Haberler");
-        adapter.addFragment(f_call, getString(R.string.tab_call));
+        //adapter.addFragment(f_call, getString(R.string.tab_call));
         adapter.addFragment(f_setting, getString(R.string.tab_setting));
         viewPager.setAdapter(adapter);
     }
@@ -129,8 +129,8 @@ public class ActivityMain extends AppCompatActivity {
         tabLayout.getTabAt(2).setIcon(imageResId[2]);
         tabLayout.getTabAt(3).setIcon(imageResId[0]);
         tabLayout.getTabAt(4).setIcon(imageResId[6]);
-        tabLayout.getTabAt(5).setIcon(imageResId[1]);
-        tabLayout.getTabAt(6).setIcon(imageResId[4]);
+        //tabLayout.getTabAt(5).setIcon(imageResId[1]);
+        tabLayout.getTabAt(5).setIcon(imageResId[4]);
 
     }
 

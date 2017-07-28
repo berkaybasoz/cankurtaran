@@ -118,18 +118,21 @@
         <item>Maddi Bağış</item>
         <item>Kan Bağışı</item>
         <item>Gönüllü Refaketçi</item>
+        <item>Haberler</item>
     </string-array>
 
     <string-array name="groups_date">
         <item>10 / 21 Kişi Desteklendi</item>
         <item>12 Acil Bağış Lazım</item>
         <item>23 Refekatçi Aranıyor</item>
+        <item>20 Yeni Tedavi Yöntemi</item>
     </string-array>
 
     <integer-array name="groups_photos">
         <item>@drawable/ic_group_collage</item>
         <item>@drawable/ic_group_hangout</item>
         <item>@drawable/ic_group_catlovers</item>
+        <item>@drawable/ic_group_collage</item>
     </integer-array>
 
     <string-array name="chat_details_content">

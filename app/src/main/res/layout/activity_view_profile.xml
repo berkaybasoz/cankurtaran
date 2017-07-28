@@ -168,26 +168,32 @@
 
             </LinearLayout>
 
-            <Button
-                android:id="@+id/bt_donate"
-                style="@style/Base.Widget.AppCompat.Button.Colored"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Bağış Yap" />
+                android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/bt_subscribe"
-                style="@style/Base.Widget.AppCompat.Button.Colored"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Takip Et" />
+                <Button android:layout_weight="1"
+                    android:id="@+id/bt_donate"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bağış Yap" />
 
-            <Button
-                android:id="@+id/bt_share"
-                style="@style/Base.Widget.AppCompat.Button.Colored"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Paylaş" />
+                <Button android:layout_weight="1"
+                    android:id="@+id/bt_subscribe"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Takip Et" />
+
+                <Button android:layout_weight="1"
+                    android:id="@+id/bt_share"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paylaş" />
+            </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
@@ -218,6 +224,7 @@
                         android:id="@+id/bt_more"
                         style="@style/Base.Widget.AppCompat.Button.Colored"
                         android:layout_width="wrap_content"
+                        android:background="@color/grey_medium"
                         android:layout_height="wrap_content"
                         android:text="DEVAMI" />
                 </LinearLayout>
@@ -309,11 +316,11 @@
                 android:layout_height="wrap_content">
 
                 <LinearLayout
-                    android:clickable="true"
-                    android:onClick="actionClick"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:clickable="true"
                     android:gravity="center_vertical"
+                    android:onClick="actionClick"
                     android:orientation="horizontal"
                     android:padding="@dimen/spacing_middle">
 
@@ -346,11 +353,11 @@
                 android:layout_height="wrap_content">
 
                 <LinearLayout
-                    android:clickable="true"
-                    android:onClick="actionClick"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:clickable="true"
                     android:gravity="center_vertical"
+                    android:onClick="actionClick"
                     android:orientation="horizontal"
                     android:padding="@dimen/spacing_middle">
 
